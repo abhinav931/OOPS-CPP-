@@ -10,6 +10,12 @@ to its definition.
 int area(int);      //early binded to area of circle, rule=exact match of type of args.
 int area(int, int); //early binded to area of rectangle, rule=exact match of type of args.
 
+/*
+ERROR :- early binding can't be done via return type alone.
+int area(int, int);
+float area(int, int);
+*/
+
 int main()
 {
     int radius = 4;
