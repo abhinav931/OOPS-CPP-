@@ -4,7 +4,9 @@ using namespace std;
 
 inline void greetings();
 
-//inline functions --> used if you want to context switches time of functions
+//inline functions --> used if you want to reduce context switches time of functions
+//inline functions are only useful when function size is smaller.
+//if function size is bigger, then, compiler won't replace function call with function definition
 
 int main()
 {
