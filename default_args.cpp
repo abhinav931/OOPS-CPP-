@@ -13,7 +13,7 @@ int main()
 
 int sum(int a, int b, int c)
 {
-    cout << c << endl; //c=0, eventhought not passed in func call, since we already set default value of c in func declaration.
+    cout << c << endl; //c=0, eventhough not passed in func call, since we already set default value of c in func declaration.
 
     return a + b + c;
 }
