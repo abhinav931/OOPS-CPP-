@@ -30,7 +30,7 @@ int main()
     A a1;
     a1.a; //private members are not directly accessible
     a1.b;
-    a1.c; //protected members are access
+    a1.c; //protected members are not directly accessible
 
     B b1;
     b1.a; //private member in parent class
